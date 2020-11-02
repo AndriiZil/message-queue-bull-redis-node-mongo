@@ -1,0 +1,28 @@
+{
+  "name": "message-qeue-bull-node-redis-mongo",
+  "version": "1.0.0",
+  "description": "* https://medium.com/better-programming/message-queue-using-bull-redis-and-mongodb-in-node-js-d7dedaa426ea",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "nodemon -r dotenv-safe/config -r esm ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.18.1",
+    "dotenv-safe": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "ioredis": "^4.19.2",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
